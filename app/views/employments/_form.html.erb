@@ -32,7 +32,7 @@
 
   <div class="form-group">
     <%= f.label :job_title_id %>
-    <%= f.collection_select :job_title_id, JobTitle.all, :id, :name, {include_blank: true}, {class: "form-control"} %>
+    <%= f.collection_select :job_title_id, JobTitle.all, :id, :name, {include_blank: "Select a title, yo!"}, {class: "form-control"} %>
   </div>
 
   <div class="form-group">
